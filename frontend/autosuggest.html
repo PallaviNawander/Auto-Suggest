@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Suggest</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <p>⚙️ • Online | 🕒 - ms</p>
-    <h1>BeingInfinity</h1>
-    <p1>One million phrases. Four algorithms. Prefix Based Auto Suggest</p1>
+    <div class="container">
+    <h1>
+    <span class="being">Being</span><span class="infinity">Infinity</span>
+</h1>
+    <p1>One million phrases. Four algorithms. Prefix Based Auto Suggest</p1><br>
     <div>
-        
-        <input type="text" placeholder="Start typing to search phrases" >
+        <input type="text" id="search" placeholder="Start typing to search phrases" >
+    </div>
+    <div id="suggestion-box" class="suggestions">Suggestion Box</div>
     </div>
 </body>
 </html>

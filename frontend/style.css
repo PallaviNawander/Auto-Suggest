@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;   
+    align-items:center;       
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:7px;
+}
+h1{
+    font-size: 80px;
+}
+p{
+    position:absolute;
+    top:20px;
+    right:20px;
+    gap:7px;
+}
+input{
+    border-radius: 30px;
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+.being{
+    color: black;
+}
+
+.infinity{
+    color: crimson;
+}
+.suggestions{
+    text-align:center;
+    width:100%;
+    border:1px solid #ccc;
+    display:none;
+    background:white;
+}
+
+.suggestion-box{
+    padding:10px;
+    cursor:pointer;
+}
+
+.suggestion:hover{
+    background:#f2f2f2;
+}
+#search{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+}
